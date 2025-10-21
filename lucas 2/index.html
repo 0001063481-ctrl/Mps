@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio do Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+        h1 {
+            color: #b22222;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .prato {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            width: 250px;
+            padding: 15px;
+        }
+        .prato img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .preco {
+            font-weight: bold;
+            color: #228b22;
+        }
+    </style>
+</head>
+<body>
+    <h1>🍽 Cardápio do Restaurante</h1>
+    <div class="menu">
+        <div class="prato">
+            <img src="ft1.avif" alt="Pizza">
+            <h2>Pizza de Calabresa</h2>
+            <p>Massa fina, molho especial e muito queijo.</p>
+            <p class="preco">R$ 35,00</p>
+        </div>
+
+        <div class="prato">
+            <img src="ft2.jpg" alt="Hambúrguer">
+            <h2>Hambúrguer Artesanal</h2>
+            <p>Pão brioche, carne 180g e molho da casa.</p>
+            <p class="preco">R$ 28,00</p>
+        </div>
+
+        <div class="prato">
+            <img src="ft3.jpg" alt="Salada">
+            <h2>Salada Tropical</h2>
+            <p>Mix de folhas, frutas frescas e molho leve.</p>
+            <p class="preco">R$ 22,00</p>
+        </div>
+    </div>
+</body>
+</html>
